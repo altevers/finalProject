@@ -1,0 +1,246 @@
+body {
+	/*background: url('../images/background.jpg');
+	background-repeat: repeat-x;*/
+    background-color: #465775;
+	font-family: arial;
+    color: #323031;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.page {
+	max-width: 500px;
+	margin: 10px auto;
+	background-color: #C0C5C1;
+	padding: 30px 30px;
+	border-radius:15px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.page p a:link {
+    color:black;
+}
+
+.page p a:visited {
+    color:black;
+}
+
+.page p a:hover {
+    color: red;
+}
+
+.page p a:active {
+    color:blue;
+}
+
+.page h1 {
+	margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+	border-bottom: 2px solid #323031;
+	text-align:center;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.page h3 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.page h4 {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.page h2 {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+p {
+	padding-bottom: 10px;
+    text-align: justify;
+}
+
+/* Forms */
+.form-element {
+	overflow: hidden;
+	padding-bottom: 25px;
+}
+
+.form-element label {
+	font-weight: bold;
+	display: block;
+	padding-bottom: 7px;
+}
+
+.form-element .textbox {
+	display: block;
+	width: 100%;
+	height: 30px;
+	padding: 5px;
+}
+
+.form-element .radio {
+	margin-right: 15px;
+	margin-top: 10px;
+	margin-left: 1px;
+}
+
+.radio-label {
+	vertical-align: middle;
+}
+
+select {
+	height: 30px;
+	/*-webkit-appearance: none;
+    -moz-appearance: none;*/
+    border-radius: 0px;
+    background: white;
+    padding: 5px;
+    width: 100%;
+}
+
+.button {
+	background: black;
+	-webkit-appearance: none;
+    -moz-appearance: none;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-weight: bold;
+    outline: none;
+    border-radius: 5px;
+}
+
+.button:hover {
+	background: #DB504A;
+}
+
+.logo {
+    height: 200px;
+    width: 300px;
+}
+
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid black;
+    background-color: #DB504A;
+}
+
+.navigation li {
+    float: left;
+}
+
+.navigation li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navigation li a:hover {
+    background-color: #F0A202;
+}
+
+.loginbox {
+    border-top: 2px solid black;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+.comment {
+    font-style: italic;
+    color: black;
+    margin-bottom: -10px;
+}
+
+.commentarea {
+    margin-left: 15px
+}
+
+table {
+    margin-left:auto; 
+    margin-right:auto;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+}
+
+.title:link {
+    color:black;
+    text-decoration: none;
+}
+
+.title:visited {
+    color:black;
+    text-decoration: none;
+}
+
+.title:hover {
+    color: darkorange;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.title:active {
+    color: black;
+    text-decoration: none;
+}
+
+.social {
+    border-collapse: collapse;
+}
+
+.social th {
+    padding-bottom: 10px;
+}
+
+.social td {
+    padding-bottom: 10px;
+}
+
+.social a:link {
+    color:black;
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.social a:visited {
+    color:black;
+    text-decoration: none;
+}
+
+.social a:hover {
+    color:black;
+    text-decoration: none;
+    background-color: #F0A202;
+}
+
+.social a:active {
+    color:black;
+    text-decoration: none;
+    background-color: #DB504A;
+}
+
+.subform {
+    text-align: center;
+}
